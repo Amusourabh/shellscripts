@@ -1,18 +1,18 @@
 #!/bin/bash
 #this script is for if-elif-fi
-echo "Please enter value of a"
+echo "Please enter value of x"
 read a
-echo "Please enter vaule of b"
+echo "Please enter vaule of y"
 read b
-if [ $a == $b ]
+if [ $x == $y ]
 then
- echo "a is equal to b"
-elif [ $a -gt $b ]
+ echo "x is equal to y"
+elif [ $x -gt $y ]
 then
- echo "a is greater than b"
-elif [ $a -lt $b ]
+ echo "x is greater than y"
+elif [ $x -lt $y ]
 then
- echo "a is less than b"
+ echo "x is less than y"
 else
  echo "None of the condition met"
 fi
