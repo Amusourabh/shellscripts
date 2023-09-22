@@ -5,5 +5,7 @@ read a
 echo "Value of b"
 read b
 echo "Hello value of a is $a and value of b is $b"
-echo "We are checking for pull request"
-echo "We will perform addition and substraction here"
+echo "We will perforsm multiply and division here"
+echo "And will see if we get confict or not"
+echo "We are learning how to pull request"
+
